@@ -82,7 +82,7 @@ export function DemoLayout({ children }: DemoLayoutProps) {
       <footer className="flex-shrink-0 border-t border-border bg-card py-4">
         <div className="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            MultiSig Store - Demo Tutorial
+            Safe.xlm - Demo Tutorial
           </p>
           <div className="flex items-center gap-4">
             <Link

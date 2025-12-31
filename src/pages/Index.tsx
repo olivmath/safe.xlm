@@ -64,7 +64,7 @@ const Index = () => {
 
               {/* Subtitle */}
               <p className="text-lg md:text-xl font-medium text-primary mb-4 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-                MultiSig Store: Multisignature Wallets on Soroban
+                Safe.xlm: Multisignature Wallets on Soroban
               </p>
 
               {/* Subheadline */}

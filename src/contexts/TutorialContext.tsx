@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from "react";
 
-const TUTORIAL_STORAGE_KEY = "multisig-store-tour-completed";
+const TUTORIAL_STORAGE_KEY = "safe-xlm-tour-completed";
 
 interface TutorialContextType {
   showTutorial: boolean;

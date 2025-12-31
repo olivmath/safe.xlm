@@ -14,7 +14,7 @@ export function Footer({ showTutorial = true }: FooterProps) {
     <footer className="flex-shrink-0 border-t border-border bg-background/80 backdrop-blur-xl">
       <div className="container mx-auto flex h-14 items-center justify-between px-4">
         <p className="text-sm text-muted-foreground">
-          © 2025 MultiSig Store @{" "}
+          © 2025 Safe.xlm @{" "}
           <a
             href="https://github.com/olivmath"
             target="_blank"
@@ -58,7 +58,7 @@ export function Footer({ showTutorial = true }: FooterProps) {
             <span className="hidden sm:inline">LinkedIn</span>
           </a>
           <a
-            href="https://github.com/olivmath/multisig-store"
+            href="https://github.com/olivmath/safe-xlm"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-primary transition-colors"

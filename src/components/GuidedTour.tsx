@@ -7,7 +7,7 @@ const dashboardSteps: Step[] = [
     target: "body",
     content: (
       <div className="text-left">
-        <h3 className="text-lg font-bold mb-3">Welcome to MultiSig Store!</h3>
+        <h3 className="text-lg font-bold mb-3">Welcome to Safe.xlm!</h3>
         <p className="mb-3">
           A <strong>multisig wallet</strong> is a smart contract that requires multiple
           signatures to approve transactions. This provides extra security for your funds.
