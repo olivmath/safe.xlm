@@ -56,7 +56,7 @@ const Index = () => {
 
               {/* Headline */}
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight mb-6 animate-fade-up">
-                Collective Protection
+                SAFE.xlm
                 <span className="block text-2xl md:text-3xl lg:text-4xl mt-4 text-muted-foreground font-normal">
                   for Digital Assets
                 </span>

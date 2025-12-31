@@ -1,15 +1,13 @@
-import { Store } from "lucide-react";
-
 interface LogoProps {
   showTagline?: boolean;
   size?: "sm" | "md" | "lg";
 }
 
 const Logo = ({ showTagline = false, size = "md" }: LogoProps) => {
-  const iconSize = {
-    sm: "w-6 h-6",
-    md: "w-8 h-8",
-    lg: "w-10 h-10",
+  const imgSize = {
+    sm: "w-8 h-8",
+    md: "w-10 h-10",
+    lg: "w-12 h-12",
   };
 
   const textSize = {
@@ -20,14 +18,14 @@ const Logo = ({ showTagline = false, size = "md" }: LogoProps) => {
 
   return (
     <div className="flex items-center gap-3">
-      <div className="relative">
-        <div className="relative p-2 rounded-xl bg-gradient-to-br from-primary to-primary/80">
-          <Store className={`${iconSize[size]} text-primary-foreground`} strokeWidth={2} />
-        </div>
-      </div>
+      <img
+        src="/logo.png"
+        alt="Safe.xlm"
+        className={`${imgSize[size]} object-contain`}
+      />
       <div className="flex flex-col">
         <span className={`${textSize[size]} font-semibold tracking-tight`}>
-          MultiSig<span className="text-primary">Store</span>
+          Safe<span className="text-primary">.xlm</span>
         </span>
         {showTagline && (
           <span className="text-xs text-muted-foreground">
